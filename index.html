@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weebly's Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <img src="pic/logo.png" alt="Weebly's Bakery" id="logo" />
+        <div class="nav-links">
+          <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#feature">Services</a></li>
+            <li><a href="#intro">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="intro">
+        <div class="background-image"></div>
+        <h1>Weebly's Bakery</h1>
+        <h3>The best Bakery in Town</h3>
+        <p>
+          We started as a small family bussines and now we are one of the
+          biggest bakeries in Vancouver
+        </p>
+        <div id="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/EGbNI26PPYg"
+            title="The Magic Of Bread Making"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreens
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <div id="products">
+      <h2 class="title">Baked Goods</h2>
+      <br />
+      <p>We bake for you a wide selection of global baked goods</p>
+      <div class="grid1">
+        <div class="small1" alt="bake"><img src="pic/small1.jpg" /></div>
+        <div class="small2" alt="baked"><img src="pic/small2.jpg" /></div>
+        <div class="large1" alt="baked good"><img src="pic/large1.jpg" /></div>
+        <div class="medium1" alt="bread"><img src="pic/medium1.jpg" /></div>
+        <div class="medium2" alt="donuts"><img src="pic/medium2.jpg" /></div>
+      </div>
+    </div>
+
+    <section id="feature">
+      <h3 class="title">Catering</h3>
+      <br />
+      <p>From bread to cakes we bake anything you need</p>
+      <hr />
+
+      <div class="flex">
+        <div id="cake">
+          <h4>Cakes</h4>
+          <img src="pic/cake.jpg" alt="birday cake" />
+          <p class="offer">Do you need a birthday cake?</p>
+        </div>
+        <div id="catering">
+          <h4>Catering</h4>
+          <img src="pic/catering.jpg" alt="catering" />
+          <p class="offer">We can cater your next event</p>
+        </div>
+        <div id="delivery">
+          <h4>Delivery</h4>
+          <img src="pic/delivery.jpg" alt="delivery" />
+          <p class="offer">We always deliver fast</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <h3 class="title">What others think about us:</h3>
+      <div class="flex2">
+        <div class="kristin">
+          <p class="quote"><quote><em>"Best bread that I ever tasted"</em></quote></p>
+          <img id="kristin" src="pic/kristin.jpg" alt="kristin">
+          <p class="author">Kristin Kreuk</p>
+        </div>
+        <div class="pierre">
+          <p class="quote">
+            <quote><em>"When I eat from those croissants I feel like I'm home in Paris"</em></quote>
+          </p>
+          <img id="pierre" src="pic/pierre.jpg" alt="pierre">
+          <p class="author">Pierre Bouchard</p>
+        </div>
+        <div class="lorraine">
+          <p class="quote"><quote><em>"That cake is my favorite guilty pleasure"</em></quote></p>
+          <img id="lorraine" src="pic/lorraine.jpg" alt="lorraine">
+          <p class="author">Lorraine Tossa</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3 class="title">Visit us</h3>
+      <p>You won't be disappointed!</p>
+      <hr>
+     <div class="flex3">
+      <div class="contact-details">
+        <h4>Our Address:</h4>
+        <p><em>159 W Hastings St, Vancouver, BC V6B 1H5, Canada</em></p>
+        <br>
+        <h4>Our Phone number:</h4>
+        <p><em>+16045638060</em></p>
+        <br>
+        <h4>Our Email:</h4>
+        <p><em>Weeblysbakery@weebly.com</em></p>
+      </div>
+      <div class="gmap_canvas">
+        <iframe
+          width="450"
+          height="400"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=159%20W%20Hastings%20St,%20Vancouver,%20BC%20V6B%201H5,%20Canada&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        ></iframe>
+      </div>
+    </div>
+    </section>
+    <footer>
+<a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="pic/facebook-v1.svg" alt="facebook button"></a>
+<a href="https://www.instagram.com/" target="_blank"><img id="instagram" src="pic/instagram.svg" alt="instagram button"></a>
+<a href="https://twitter.com/" target="_blank"><img id="twitter" src="pic/twitter.svg" alt="twitter button"></a>
+    </footer>
+  </body>
+</html>
