@@ -1,10 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weebly's Bakery</title>
+    <meta name="description" content="Webly's Bakery - The best bakery in Vancouver. From fresh bread to custom cakes, we bake with love for over 25 years. Visit us or order catering services.">
+    <meta name="keywords" content="bakery, Vancouver, bread, cakes, catering, delivery, fresh baked goods">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dutatiberiu.github.io/Webly-s-Bakery/">
+    <meta property="og:title" content="Webly's Bakery - The Best Bakery in Vancouver">
+    <meta property="og:description" content="From bread to cakes, we bake anything you need. Family business with over 25 years of experience.">
+    <meta property="og:image" content="https://dutatiberiu.github.io/Webly-s-Bakery/pic/background.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dutatiberiu.github.io/Webly-s-Bakery/">
+    <meta property="twitter:title" content="Webly's Bakery - The Best Bakery in Vancouver">
+    <meta property="twitter:description" content="From bread to cakes, we bake anything you need. Family business with over 25 years of experience.">
+    <meta property="twitter:image" content="https://dutatiberiu.github.io/Webly-s-Bakery/pic/background.jpg">
+
+    <title>Webly's Bakery - The Best Bakery in Vancouver</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +31,12 @@
   </head>
 
   <body>
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top">↑</button>
+
     <section class="header">
-      <nav>
-        <img src="pic/logo.png" alt="Weebly's Bakery" id="logo" />
+      <nav role="navigation" aria-label="Main navigation">
+        <img src="pic/logo.png" alt="Webly's Bakery Logo" id="logo" width="200" height="auto" />
         <div class="nav-links">
           <ul>
             <li><a href="#products">Products</a></li>
@@ -29,99 +49,123 @@
 
       <div id="intro">
         <div class="background-image"></div>
-        <h1>Weebly's Bakery</h1>
-        <h3>The best Bakery in Town</h3>
+        <h1>Webly's Bakery</h1>
+        <h2>The best Bakery in Town</h2>
         <p>
-          We started as a small family bussines and now we are one of the
+          We started as a small family business and now we are one of the
           biggest bakeries in Vancouver
         </p>
         <div id="video-container">
           <iframe
-            src="https://www.youtube.com/embed/EGbNI26PPYg"
+            src="https://www.youtube-nocookie.com/embed/EGbNI26PPYg"
             title="The Magic Of Bread Making"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreens
+            allowfullscreen
+            loading="lazy"
+            width="516"
+            height="300"
           ></iframe>
         </div>
       </div>
     </section>
 
-    <div id="products">
+    <section id="products">
       <h2 class="title">Baked Goods</h2>
       <br />
       <p>We bake for you a wide selection of global baked goods</p>
       <div class="grid1">
-        <div class="small1" alt="bake"><img src="pic/small1.jpg" /></div>
-        <div class="small2" alt="baked"><img src="pic/small2.jpg" /></div>
-        <div class="large1" alt="baked good"><img src="pic/large1.jpg" /></div>
-        <div class="medium1" alt="bread"><img src="pic/medium1.jpg" /></div>
-        <div class="medium2" alt="donuts"><img src="pic/medium2.jpg" /></div>
+        <div class="small1"><img src="pic/small1.jpg" alt="Freshly baked artisan bread" width="200" height="200" loading="lazy" /></div>
+        <div class="small2"><img src="pic/small2.jpg" alt="Assorted baked pastries" width="200" height="200" loading="lazy" /></div>
+        <div class="large1"><img src="pic/large1.jpg" alt="Variety of baked goods display" width="400" height="400" loading="lazy" /></div>
+        <div class="medium1"><img src="pic/medium1.jpg" alt="Traditional bread loaves" width="300" height="200" loading="lazy" /></div>
+        <div class="medium2"><img src="pic/medium2.jpg" alt="Glazed donuts selection" width="300" height="200" loading="lazy" /></div>
       </div>
-    </div>
+    </section>
 
     <section id="feature">
-      <h3 class="title">Catering</h3>
+      <h2 class="title">Catering</h2>
       <br />
       <p>From bread to cakes we bake anything you need</p>
       <hr />
 
       <div class="flex">
         <div id="cake">
-          <h4>Cakes</h4>
-          <img src="pic/cake.jpg" alt="birday cake" />
+          <h3>Cakes</h3>
+          <img src="pic/cake.jpg" alt="Custom birthday cake with decorations" width="300" height="200" loading="lazy" />
           <p class="offer">Do you need a birthday cake?</p>
         </div>
         <div id="catering">
-          <h4>Catering</h4>
-          <img src="pic/catering.jpg" alt="catering" />
+          <h3>Catering</h3>
+          <img src="pic/catering.jpg" alt="Catering services spread of baked goods" width="300" height="200" loading="lazy" />
           <p class="offer">We can cater your next event</p>
         </div>
         <div id="delivery">
-          <h4>Delivery</h4>
-          <img src="pic/delivery.jpg" alt="delivery" />
+          <h3>Delivery</h3>
+          <img src="pic/delivery.jpg" alt="Fast delivery service" width="300" height="200" loading="lazy" />
           <p class="offer">We always deliver fast</p>
         </div>
       </div>
     </section>
 
     <section id="reviews">
-      <h3 class="title">What others think about us:</h3>
+      <h2 class="title">What others think about us:</h2>
       <div class="flex2">
-        <div class="kristin">
-          <p class="quote"><quote><em>"Best bread that I ever tasted"</em></quote></p>
-          <img id="kristin" src="pic/kristin.jpg" alt="kristin">
+        <div class="review-item kristin">
+          <p class="quote"><q><em>Best bread that I ever tasted</em></q></p>
+          <img class="review-avatar" id="kristin" src="pic/kristin.jpg" alt="Kristin Kreuk customer photo" width="100" height="100" loading="lazy">
           <p class="author">Kristin Kreuk</p>
         </div>
-        <div class="pierre">
+        <div class="review-item pierre">
           <p class="quote">
-            <quote><em>"When I eat from those croissants I feel like I'm home in Paris"</em></quote>
+            <q><em>When I eat from those croissants I feel like I'm home in Paris</em></q>
           </p>
-          <img id="pierre" src="pic/pierre.jpg" alt="pierre">
+          <img class="review-avatar" id="pierre" src="pic/pierre.jpg" alt="Pierre Bouchard customer photo" width="100" height="100" loading="lazy">
           <p class="author">Pierre Bouchard</p>
         </div>
-        <div class="lorraine">
-          <p class="quote"><quote><em>"That cake is my favorite guilty pleasure"</em></quote></p>
-          <img id="lorraine" src="pic/lorraine.jpg" alt="lorraine">
+        <div class="review-item lorraine">
+          <p class="quote"><q><em>That cake is my favorite guilty pleasure</em></q></p>
+          <img class="review-avatar" id="lorraine" src="pic/lorraine.jpg" alt="Lorraine Tossa customer photo" width="100" height="100" loading="lazy">
           <p class="author">Lorraine Tossa</p>
         </div>
       </div>
     </section>
 
     <section id="contact">
-      <h3 class="title">Visit us</h3>
+      <h2 class="title">Visit us</h2>
       <p>You won't be disappointed!</p>
       <hr>
      <div class="flex3">
       <div class="contact-details">
-        <h4>Our Address:</h4>
+        <h3>Our Address:</h3>
         <p><em>159 W Hastings St, Vancouver, BC V6B 1H5, Canada</em></p>
         <br>
-        <h4>Our Phone number:</h4>
-        <p><em>+16045638060</em></p>
+        <h3>Our Phone number:</h3>
+        <p><em><a href="tel:+16045638060">+1 (604) 563-8060</a></em></p>
         <br>
-        <h4>Our Email:</h4>
-        <p><em>Weeblysbakery@weebly.com</em></p>
+        <h3>Our Email:</h3>
+        <p><em><a href="mailto:Weblysbakery@webly.com">Weblysbakery@webly.com</a></em></p>
+        <br>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3>Send us a message</h3>
+          <form id="contactForm" aria-label="Contact form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required aria-required="true">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required aria-required="true">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
       </div>
       <div class="gmap_canvas">
         <iframe
@@ -129,14 +173,94 @@
           height="400"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=159%20W%20Hastings%20St,%20Vancouver,%20BC%20V6B%201H5,%20Canada&t=&z=17&ie=UTF8&iwloc=&output=embed"
+          title="Webly's Bakery location map"
+          loading="lazy"
         ></iframe>
       </div>
     </div>
     </section>
     <footer>
-<a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="pic/facebook-v1.svg" alt="facebook button"></a>
-<a href="https://www.instagram.com/" target="_blank"><img id="instagram" src="pic/instagram.svg" alt="instagram button"></a>
-<a href="https://twitter.com/" target="_blank"><img id="twitter" src="pic/twitter.svg" alt="twitter button"></a>
+      <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page"><img class="social-icon" id="facebook" src="pic/facebook-v1.svg" alt="Facebook" width="50" height="50"></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram page"><img class="social-icon" id="instagram" src="pic/instagram.svg" alt="Instagram" width="50" height="50"></a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Twitter page"><img class="social-icon" id="twitter" src="pic/twitter.svg" alt="Twitter" width="50" height="50"></a>
+      </div>
+      <div class="footer-info">
+        <p>&copy; 2024 Webly's Bakery. All rights reserved.</p>
+        <p>159 W Hastings St, Vancouver, BC V6B 1H5, Canada | <a href="tel:+16045638060">+1 (604) 563-8060</a></p>
+      </div>
     </footer>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Bakery",
+      "name": "Webly's Bakery",
+      "image": "https://dutatiberiu.github.io/Webly-s-Bakery/pic/background.jpg",
+      "description": "The best bakery in Vancouver. From fresh bread to custom cakes, we bake with love for over 25 years.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "159 W Hastings St",
+        "addressLocality": "Vancouver",
+        "addressRegion": "BC",
+        "postalCode": "V6B 1H5",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "49.2827",
+        "longitude": "-123.1207"
+      },
+      "telephone": "+16045638060",
+      "email": "Weblysbakery@webly.com",
+      "priceRange": "$$",
+      "openingHours": "Mo-Su 07:00-19:00",
+      "servesCuisine": "Bakery",
+      "url": "https://dutatiberiu.github.io/Webly-s-Bakery/"
+    }
+    </script>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Back to Top button functionality
+      const backToTopBtn = document.getElementById('backToTop');
+
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+          backToTopBtn.classList.add('show');
+        } else {
+          backToTopBtn.classList.remove('show');
+        }
+      });
+
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+
+      // Contact form handling
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you for your message! We will get back to you soon.');
+        this.reset();
+      });
+    </script>
   </body>
 </html>
